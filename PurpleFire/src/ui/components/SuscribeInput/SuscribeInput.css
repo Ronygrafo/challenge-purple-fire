@@ -1,0 +1,17 @@
+.subscribe-input {
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  .subscribe-input__field {
+    flex-grow: 1;
+    padding: 0.7rem 2rem;
+    font-size: 18px;
+    border: none
+  }
+  
+  .subscribe-input__field:focus-visible {
+    outline-offset: -0.5px;
+    outline-color: var(--primary-red,red);
+  }

@@ -5,11 +5,18 @@ import IconButton from "./ui/components/IconButton/IconButton";
 import PrimaryButton from "./ui/components/PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
 import "react-material-symbols/rounded";
+import SuscribeInput from "./ui/components/SuscribeInput/SuscribeInput";
 
 const handleClick = () => {
   console.log("Clicked");
 };
 function App() {
+  const handleSubscribe = async (email) => {
+    console.log("suscribing", email);
+    await new Promise((resolve) => setTimeout(resolve, 200));
+    console.log("suscribe succesful", email);
+  };
+
   return (
     <>
       <PrimaryButton
@@ -28,6 +35,11 @@ function App() {
         className=""
         iconName="shopping_cart"
         iconPosition="left"
+      />
+      <SuscribeInput
+        onSubscribe={handleSubscribe}
+        placeholder="Enter your email"
+        buttonText="Subscribe"
       />
     </>
   );

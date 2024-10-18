@@ -27,3 +27,8 @@
   background-color: var(--grey-light);
   border: solid 1px var(--primary-red-dark);
 }
+
+.subscribe-success{
+  color: #FFF;
+  background-color: #000;
+}
