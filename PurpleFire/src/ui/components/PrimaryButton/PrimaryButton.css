@@ -1,0 +1,29 @@
+.button {
+  width: 204px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.primary-button {
+  background-color: var(--primary-red);
+  color: #ffffff;
+}
+
+.primary-button:hover {
+  background-color: var(--primary-red-dark);
+}
+
+.secondary-button {
+  color: var(--primary-red);
+  background-color: #ffffff;
+  border: solid 1px var(--primary-red);
+}
+
+.secondary-button:hover {
+  color: var(--primary-red-dark);
+  background-color: var(--grey-light);
+  border: solid 1px var(--primary-red-dark);
+}

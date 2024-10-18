@@ -1,0 +1,29 @@
+.icon-button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.icon-button span {
+  color: var(--text-grey);
+}
+
+.icon-button:hover {
+  background-color: var(--grey-light);
+}
+
+.icon-button.icon-left {
+  flex-direction: row;
+}
+
+.icon-button.icon-right {
+  flex-direction: row-reverse;
+}
