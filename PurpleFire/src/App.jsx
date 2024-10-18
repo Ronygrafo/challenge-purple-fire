@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 
 import "./App.css";
-import IconButton from "./ui/components/IconButton/IconButton";
-import PrimaryButton from "./ui/components/PrimaryButton/PrimaryButton";
+import IconButton from "./ui/components/needus/IconButton/IconButton";
+import PrimaryButton from "./ui/components/needus/PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
 import "react-material-symbols/rounded";
-import SuscribeInput from "./ui/components/SuscribeInput/SuscribeInput";
+import SuscribeInput from "./ui/components/needus/SuscribeInput/SuscribeInput";
 
 const handleClick = () => {
   console.log("Clicked");
@@ -19,6 +19,17 @@ function App() {
 
   return (
     <>
+      <PrimaryButton
+        text="Needus PDP"
+        onClick={handleClick}
+        className="primary-button"
+      />
+      <PrimaryButton
+        text="Antic Landing Page"
+        onClick={handleClick}
+        className="secondary-button"
+      />
+      <hr/>
       <PrimaryButton
         text="Buy Now"
         onClick={handleClick}
@@ -41,7 +52,7 @@ function App() {
         placeholder="Enter your email"
         buttonText="Subscribe"
       />
-    </>
+      </>
   );
 }
 
