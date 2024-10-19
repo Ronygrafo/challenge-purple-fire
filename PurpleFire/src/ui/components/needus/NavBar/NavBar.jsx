@@ -12,7 +12,6 @@ const NavBar = () => {
             grade={0}
             weight={400}
             color={"##fff"}
-            fill={true}
           />
           All Categories
           <MaterialSymbol
@@ -21,7 +20,6 @@ const NavBar = () => {
             grade={0}
             weight={400}
             color={"##fff"}
-            fill={true}
           />
         </div>
 
@@ -46,14 +44,7 @@ const NavBar = () => {
         </ul>
 
         <div className="contact-info">
-          <MaterialSymbol
-            icon={"headphones"}
-            size={48}
-            grade={0}
-            weight={400}
-            color={"#E73C17"}
-            fill={true}
-          />
+          <MaterialSymbol icon={"headphones"} size={48} grade={0} weight={400} color={"#E73C17"} />
           <div className="contact-text">
             <span>CONTACT US 24/7</span>
             <strong>+12012987481</strong>

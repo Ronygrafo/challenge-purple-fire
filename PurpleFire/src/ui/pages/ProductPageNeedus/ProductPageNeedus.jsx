@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import AnnounceBar from "../../components/needus/AnnounceBar/AnnounceBar";
+import Footer from "../../components/needus/Footer/Footer";
 import Header from "../../components/needus/Header/Header";
 import IconButton from "../../components/needus/IconButton/IconButton";
 import MainProduct from "../../components/needus/MainProduct/MainProduct";
@@ -25,6 +26,7 @@ const ProductPageNeedus = () => {
       <Header/>
       <NavBar/>
       <MainProduct/>
+      <Footer/>
 
       {/* <header>Header</header>
       <main>

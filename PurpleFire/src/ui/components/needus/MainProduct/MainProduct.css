@@ -1,7 +1,6 @@
 .product-main {
     padding: 0 3rem;
     min-height: 50vh;
-    max-height: 90vh;
     display: flex;
     gap: 2rem;
 }
