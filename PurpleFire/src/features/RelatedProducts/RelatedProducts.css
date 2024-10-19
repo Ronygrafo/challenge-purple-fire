@@ -1,0 +1,12 @@
+.related-products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .related-products {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}

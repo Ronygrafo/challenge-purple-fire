@@ -13,7 +13,7 @@
   }
   
   .chip-tag--discount {
-    background-color: #F44336;
+    background-color: var(--primary-red);
     color: white;
   }
   

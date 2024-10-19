@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import { useState, useEffect } from 'react';
-import mockProductData from '../mockData/mockProduct.json';
+import mockRelatedProductData from '../mockData/mockRelatedProducts.json';
 
 const useProductData = () => {
   const [productData, setProductData] = useState(null);
@@ -11,8 +11,8 @@ const useProductData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        await new Promise(resolve => setTimeout(resolve, 2000));
-        setProductData(mockProductData);
+        await new Promise(resolve => setTimeout(resolve, 100));
+        setProductData(mockRelatedProductData);
         setLoading(false);
       } catch (err) {
         setError('Error loading product data');

@@ -1,0 +1,83 @@
+.product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-card__image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+    overflow: hidden;
+  }
+  
+  .product-card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-card__content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .product-card__title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    margin: 0;
+    line-height: 1.4;
+    max-height: 2.8em; /* Limita el título a dos líneas */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .product-card__price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .product-card__current-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .product-card__original-price {
+    font-size: 14px;
+    color: #888888;
+    text-decoration: line-through;
+  }
+  
+  /* Estilos para el contenedor del ChipTag, sin incluir estilos específicos del ChipTag */
+  .product-card__tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+  }
+  
+  /* Espacio reservado para el botón Add to Cart */
+  .product-card__add-to-cart-container {
+    margin-top: 8px;
+  }

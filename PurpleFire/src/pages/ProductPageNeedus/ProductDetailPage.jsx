@@ -5,6 +5,7 @@ import Header from "../../features/Header/Header";
 import MainProduct from "../../features/MainProduct/MainProduct";
 import NavBar from "../../features/NavBar/NavBar";
 import SuscribeSection from "../../components/SuscribeSection/SuscribeSection";
+import RelatedProducts from "../../features/RelatedProducts/RelatedProducts";
 
 const ProductDetailPage = () => {
   return (
@@ -17,6 +18,7 @@ const ProductDetailPage = () => {
         breadcrumbs={["home", "product", "tv collection"]}
       />
       <MainProduct />
+      <RelatedProducts/>
       <SuscribeSection />
       <Footer />
     </>
