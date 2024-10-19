@@ -4,10 +4,10 @@ import PrimaryButton from "../PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
 import ProducDetails from "../ProductDetails/ProductDetails"
 
-const BASE_URL = import.meta.env.VITE_BASE_URL || '../../../../../public/mockData/'
+const BASE_URL = import.meta.env.VITE_BASE_URL || '../../../../../public/'
 
 console.log('Base URL:', import.meta.env.BASE_URL);
-console.log('Fetching from:', `${import.meta.env.BASE_URL}data.json`);
+console.log('Fetching from:', `${import.meta.env.BASE_URL}mockProduct.json`);
 
 const handleClick = () => {
   console.log("Click Size");
@@ -36,7 +36,7 @@ const MainProduct = () => {
           "../../../../../public/mockData/mockProduct.json"
         ); */
         const response = await fetch(
-         `${BASE_URL}mockProduct.json`
+         `${BASE_URL}mockData/mockProduct.json`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
