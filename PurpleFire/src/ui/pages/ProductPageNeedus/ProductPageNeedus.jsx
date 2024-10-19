@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 
 import AnnounceBar from "../../components/needus/AnnounceBar/AnnounceBar";
+import Header from "../../components/needus/Header/Header";
 import IconButton from "../../components/needus/IconButton/IconButton";
 import MainProduct from "../../components/needus/MainProduct/MainProduct";
+import NavBar from "../../components/needus/NavBar/NavBar";
 import PrimaryButton from "../../components/needus/PrimaryButton/PrimaryButton";
 import SuscribeInput from "../../components/needus/SuscribeInput/SuscribeInput";
 
@@ -20,6 +22,8 @@ const ProductPageNeedus = () => {
   return (
     <>
       <AnnounceBar />
+      <Header/>
+      <NavBar/>
       <MainProduct/>
 
       {/* <header>Header</header>

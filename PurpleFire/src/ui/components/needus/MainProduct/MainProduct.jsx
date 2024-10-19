@@ -92,46 +92,11 @@ const MainProduct = () => {
           <h1>{productData.product.name}</h1>
 
           <div className="product-ratings">
-            <MaterialSymbol
-              icon={"star_rate"}
-              size={24}
-              grade={0}
-              weight={400}
-              color={"#E73C17"}
-              fill={true}
-            />
-            <MaterialSymbol
-              icon={"star_rate"}
-              size={24}
-              grade={0}
-              weight={400}
-              color={"#E73C17"}
-              fill={true}
-            />
-            <MaterialSymbol
-              icon={"star_rate"}
-              size={24}
-              grade={0}
-              weight={400}
-              color={"#E73C17"}
-              fill={true}
-            />
-            <MaterialSymbol
-              icon={"star_rate_half"}
-              size={24}
-              grade={0}
-              weight={400}
-              color={"#E73C17"}
-              fill={false}
-            />
-            <MaterialSymbol
-              icon={"star_rate"}
-              size={24}
-              grade={0}
-              weight={400}
-              color={"#ccc"}
-              fill={false}
-            />
+            <MaterialSymbol icon={"star_rate"} size={24} grade={0} weight={400} color={"#E73C17"} fill={true}/>
+            <MaterialSymbol icon={"star_rate"} size={24} grade={0} weight={400} color={"#E73C17"} fill={true}/>
+            <MaterialSymbol icon={"star_rate"} size={24} grade={0} weight={400} color={"#E73C17"} fill={true}/>
+            <MaterialSymbol icon={"star_rate_half"} size={24} grade={0} weight={400} color={"#E73C17"} fill={false} />
+            <MaterialSymbol icon={"star_rate"} size={24} grade={0} weight={400} color={"#ccc"} fill={false} />
           </div>
 
           <ul className="features">
