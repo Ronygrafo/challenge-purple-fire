@@ -9,12 +9,9 @@ const handleClick = () => {
   console.log("Click Size");
 };
 
-const handleBuyNow = () => {
-  console.log("Buy Now!");
-};
-
-const handleAddToCart = () => {
-  console.log("Add To Cart");
+const handleSubmit = (e) => {
+  e.preventDefault();
+  console.log("Form submitted");
 };
 
 const MainProduct = () => {
@@ -96,7 +93,7 @@ const MainProduct = () => {
               />
             ))}
           </div>
-          <form className="product-form">
+          <form className="product-form" onSubmit={handleSubmit}>
             <div className="product-handler">
               <div className="price-container">
                 <p className="price-label">USD(incl. of all taxes)</p>
@@ -120,12 +117,12 @@ const MainProduct = () => {
             <div className="button-container">
               <PrimaryButton
                 text="Buy Now"
-                onClick={handleBuyNow}
+                onClick={handleSubmit}
                 className="primary-button"
               />
               <PrimaryButton
                 text="Add to Cart"
-                onClick={handleAddToCart}
+                onClick={handleSubmit}
                 className="secondary-button"
               />
             </div>
