@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import "./MainProduct.css";
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
-import ProducDetails from "../ProductDetails/ProductDetails";
+import ProducDetails from "../ProductDetails/ProductDetails"
+
+const BASE_URL = import.meta.env.VITE_BASE_URL || '../../../../../public/mockData/'
+
+console.log('Base URL:', import.meta.env.BASE_URL);
+console.log('Fetching from:', `${import.meta.env.BASE_URL}data.json`);
 
 const handleClick = () => {
   console.log("Click Size");
@@ -27,8 +32,11 @@ const MainProduct = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
+/*         const response = await fetch(
           "../../../../../public/mockData/mockProduct.json"
+        ); */
+        const response = await fetch(
+         `${BASE_URL}mockProduct.json`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
