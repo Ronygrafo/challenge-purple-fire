@@ -1,8 +1,8 @@
 import { useState } from "react";
-import useProductData from '../../../../hooks/useProductData';
-import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import useProductData from '../../hooks/useProductData';
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
-import ProducDetails from "../ProductDetails/ProductDetails"
+import ProducDetails from "../../features/MainProduct/components/ProductDetails/ProductDetails"
 import "./MainProduct.css";
 
 const handleClick = () => {

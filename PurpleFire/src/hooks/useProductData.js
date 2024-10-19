@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
+
 import { useState, useEffect } from 'react';
-import mockProductData from '../data/mockProduct.json';
+import mockProductData from '../mockData/mockProduct.json';
 
 const useProductData = () => {
   const [productData, setProductData] = useState(null);

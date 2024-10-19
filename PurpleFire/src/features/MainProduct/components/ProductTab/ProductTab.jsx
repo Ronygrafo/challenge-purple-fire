@@ -1,8 +1,8 @@
 /* eslint react/prop-types: 0 */
 
-import "./Tab.css";
+import "./ProductTab.css";
 
-const Tab = ({ text, isSelected, onClick }) => {
+const ProductTab = ({ text, isSelected, onClick }) => {
     return (
       <button
         className={`tab ${isSelected ? 'selected' : ''}`}
@@ -15,4 +15,4 @@ const Tab = ({ text, isSelected, onClick }) => {
     );
   };
 
-export default Tab;
+export default ProductTab;

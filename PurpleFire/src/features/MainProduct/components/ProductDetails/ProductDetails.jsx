@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import './ProductDetail.css'
-import Tab from '../Tab/Tab';
+import ProductTab from '../ProductTab/ProductTab';
 
 const ProducDetails = ({ description, specification, reviews }) => {
     const [activeTab, setActiveTab] = useState('description');
@@ -23,17 +23,17 @@ const ProducDetails = ({ description, specification, reviews }) => {
     return (
       <section className="product-tabs full-width">
         <div className="tabs">
-        <Tab
+        <ProductTab
           text="Description"
           isSelected={activeTab === 'description'}
           onClick={() => setActiveTab('description')}
         />
-        <Tab
+        <ProductTab
           text="Specification"
           isSelected={activeTab === 'specification'}
           onClick={() => setActiveTab('specification')}
         />
-        <Tab
+        <ProductTab
           text="Reviews"
           isSelected={activeTab === 'reviews'}
           onClick={() => setActiveTab('reviews')}
