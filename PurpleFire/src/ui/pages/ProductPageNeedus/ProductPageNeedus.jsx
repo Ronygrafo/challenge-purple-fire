@@ -8,6 +8,7 @@ import MainProduct from "../../components/needus/MainProduct/MainProduct";
 import NavBar from "../../components/needus/NavBar/NavBar";
 import PrimaryButton from "../../components/needus/PrimaryButton/PrimaryButton";
 import SuscribeInput from "../../components/needus/SuscribeInput/SuscribeInput";
+import SuscribeSection from "../../components/needus/SuscribeSection/SuscribeSection";
 
 const ProductPageNeedus = () => {
   const handleClick = () => {
@@ -26,6 +27,7 @@ const ProductPageNeedus = () => {
       <Header/>
       <NavBar/>
       <MainProduct/>
+      <SuscribeSection/>
       <Footer/>
 
       {/* <header>Header</header>

@@ -1,0 +1,24 @@
+.newsletter-signup {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey-filter);
+    background-image: 
+        linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)),
+        url('../../../../../public/assets/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter-text h2, .newsletter-text p{
+    margin: 0 0 0 4px;
+    color: #fff;
+    font-weight: 500;
+}
+.newsletter-text h2{
+    font-size: 1.8rem;
+}
+.newsletter-text p{
+    font-size: 1.2rem;
+}

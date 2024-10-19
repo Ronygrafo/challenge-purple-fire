@@ -9,6 +9,7 @@
   --grey-light: #F3F3F3;
   --text-grey-dark: #191919;
   --dark-blue: #2F333A;
+  --grey-filter: #19191974;
 
   font-family: Inter, system-ui, Arial, sans-serif;
   line-height: 1.5;
@@ -20,11 +21,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.full-width{
+.full-width {
   width: 100%;
   margin: 0 auto;
-  padding: 0 6rem;
-}
-section{
-  padding: 3rem 0;
+  padding: 1.5rem 6rem;
 }

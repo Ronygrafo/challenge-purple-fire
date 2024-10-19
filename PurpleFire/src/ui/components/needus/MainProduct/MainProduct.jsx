@@ -4,7 +4,7 @@ import PrimaryButton from "../PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
 
 const handleClick = () => {
-  console.log("Click");
+  console.log("Click Size");
 };
 
 const handleBuyNow = () => {

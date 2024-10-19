@@ -1,7 +1,6 @@
 .subscribe-input {
     display: flex;
-    max-width: 450px;
-    margin: 0 auto;
+    width: 600px;
   }
   
   .subscribe-input__field {
@@ -12,6 +11,8 @@
   }
   
   .subscribe-input__field:focus-visible {
-    outline-offset: -0.5px;
     outline-color: var(--primary-red,red);
+  }
+  .subscribe-input__field:disabled {
+    background-color: #fff;
   }
