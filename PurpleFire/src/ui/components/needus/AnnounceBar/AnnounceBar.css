@@ -1,0 +1,17 @@
+.announce-bar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: var(--dark-blue)
+}
+
+.announce-bar h4, .language-currency p{
+    font-weight: 400;
+}
+.language-currency p{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}

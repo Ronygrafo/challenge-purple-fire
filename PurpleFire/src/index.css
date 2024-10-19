@@ -7,6 +7,8 @@
   --primary-red-dark: #C22900;
   --text-grey: #6F6F6F;
   --grey-light: #F3F3F3;
+  --text-grey-dark: #191919;
+  --dark-blue: #2F333A;
 
   font-family: Inter, system-ui, Arial, sans-serif;
   line-height: 1.5;
@@ -16,4 +18,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.full-width{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 6rem;
+}
+section{
+  padding: 3rem 0;
 }

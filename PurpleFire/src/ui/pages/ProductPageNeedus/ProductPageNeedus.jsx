@@ -1,4 +1,8 @@
+/* eslint-disable no-unused-vars */
+
+import AnnounceBar from "../../components/needus/AnnounceBar/AnnounceBar";
 import IconButton from "../../components/needus/IconButton/IconButton";
+import MainProduct from "../../components/needus/MainProduct/MainProduct";
 import PrimaryButton from "../../components/needus/PrimaryButton/PrimaryButton";
 import SuscribeInput from "../../components/needus/SuscribeInput/SuscribeInput";
 
@@ -15,7 +19,10 @@ const ProductPageNeedus = () => {
 
   return (
     <>
-      <header>Header</header>
+      <AnnounceBar />
+      <MainProduct/>
+
+      {/* <header>Header</header>
       <main>
         Main
         <PrimaryButton
@@ -42,7 +49,7 @@ const ProductPageNeedus = () => {
         />
       </main>
       <article>Suscribe</article>
-      <footer>Footer</footer>
+      <footer>Footer</footer> */}
     </>
   );
 };

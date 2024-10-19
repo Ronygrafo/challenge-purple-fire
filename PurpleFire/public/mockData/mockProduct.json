@@ -1,0 +1,69 @@
+{
+    "product": {
+      "name": "LG C2 42 (106CM) 4K SMART OLED EVO TV | WEBOS | CINEMA HDR",
+      "brand": "LG",
+      "model": "OLED42C2PSA",
+      "availability": "Only 2 in Stock",
+      "price": {
+        "current": 600.72,
+        "original": 800.00,
+        "currency": "USD"
+      },
+      "features": [
+        "9 Gen5 AI Processor with AI Picture Pro & AI 4K Upscaling",
+        "Pixel Dimming, Perfect Black, 100% Color Fidelity & Color Volume",
+        "Hands-free Voice Control, Always Ready",
+        "Dolby Vision IQ with Precision Detail, Dolby Atmos, Filmmaker Mode",
+        "Eye Comfort Display: Low-Blue Light, Flicker-Free"
+      ],
+      "sizes": [
+        {
+          "cm": 106,
+          "inches": 42,
+          "selected": true
+        },
+        {
+          "cm": 121,
+          "inches": 48
+        },
+        {
+          "cm": 139,
+          "inches": 55
+        },
+        {
+          "cm": 164,
+          "inches": 65
+        },
+        {
+          "cm": 196,
+          "inches": 77
+        },
+        {
+          "cm": 210,
+          "inches": 83
+        }
+      ],
+      "images": [
+        {
+          "id": "main",
+          "url": "../assets/tv/tv-1.png",
+          "alt": "LG OLED evo TV front view displaying vibrant colors"
+        },
+        {
+          "id": "angle1",
+          "url": "../assets/tv/tv-2.png",
+          "alt": "LG OLED evo TV angled view from the right"
+        },
+        {
+          "id": "side",
+          "url": "../assets/tv/tv-3.png",
+          "alt": "LG OLED evo TV side view showing thin profile"
+        },
+        {
+          "id": "stand",
+          "url": "../assets/tv/tv-4.png",
+          "alt": "LG OLED evo TV stand"
+        }
+      ]
+    }
+  }
