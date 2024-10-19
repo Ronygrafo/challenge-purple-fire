@@ -1,0 +1,19 @@
+.product-tabs {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.tabs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid var(--grey-light);
+}
+.tab-content{
+    display: flex;
+    padding: 0 16rem;
+    font-weight: 400;
+    color: var(--text-grey-dark);
+}

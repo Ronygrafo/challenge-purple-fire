@@ -1,0 +1,19 @@
+.tab {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .tab:hover {
+    border-bottom-color: var(--primary-red-dark);
+  }
+  
+  .tab.selected {
+    border-bottom-color: var(--primary-red);
+    color: var(--primary-red);
+  }
