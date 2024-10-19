@@ -1,13 +1,9 @@
-import { useEffect, useState } from "react";
-import "./MainProduct.css";
+import { useState } from "react";
+import useProductData from '../../../../hooks/useProductData';
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
 import { MaterialSymbol } from "react-material-symbols";
 import ProducDetails from "../ProductDetails/ProductDetails"
-
-const BASE_URL = import.meta.env.VITE_BASE_URL || '../../../../../public/'
-
-console.log('Base URL:', import.meta.env.BASE_URL);
-console.log('Fetching from:', `${import.meta.env.BASE_URL}mockProduct.json`);
+import "./MainProduct.css";
 
 const handleClick = () => {
   console.log("Click Size");
@@ -22,36 +18,16 @@ const handleAddToCart = () => {
 };
 
 const MainProduct = () => {
-  const [productData, setProductData] = useState(null);
+  const { productData, loading, error } = useProductData();
   const [selectedThumbnail, setSelectedThumbnail] = useState(0);
 
   const handleThumbnailClick = (index) => {
     setSelectedThumbnail(index);
   };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-/*         const response = await fetch(
-          "../../../../../public/mockData/mockProduct.json"
-        ); */
-        const response = await fetch(
-         `${BASE_URL}mockData/mockProduct.json`
-        );
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const data = await response.json();
-        setProductData(data);
-      } catch (error) {
-        console.error("Error fetching data: ", error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  if (!productData) return <div>Loading Product...</div>;
+  if (loading) return <div>Loading Product...</div>;
+  if (error) return <div>Error: {error}</div>;
+  if (!productData) return <div>No product data available</div>;
 
   console.log(productData);
 
