@@ -5,6 +5,10 @@ import IconButton from "../../../../components/IconButton/IconButton";
 import "./ProductCard.css";
 
 const ProductCard = ({ image, imageAlt, label, title, price }) => {
+
+  const handleClick = () => { console.log('Related Product Added');
+  }
+
   return (
     <div className="product-card">
       <div className="product-card__image-container">
@@ -16,7 +20,15 @@ const ProductCard = ({ image, imageAlt, label, title, price }) => {
         <img src={image} alt={imageAlt} className="product-card__image" />
       </div>
       <div className="product-card__content">
-        <h3 className="product-card__title">{title}</h3>
+        <IconButton
+          text={"Add to Cart"}
+          onClick={handleClick}
+          className={""}
+          iconName={"shopping_cart"}
+          iconPosition={"left"}
+        />
+      </div>
+      <h3 className="product-card__title">{title}</h3>
         <div className="product-card__price">
           <span className="product-card__current-price">
             ${price.current.toFixed(2)}
@@ -27,14 +39,6 @@ const ProductCard = ({ image, imageAlt, label, title, price }) => {
             </span>
           )}
         </div>
-        <IconButton
-          text={""}
-          onClick={""}
-          className={""}
-          iconName={""}
-          iconPosition={"left"}
-        />
-      </div>
     </div>
   );
 };

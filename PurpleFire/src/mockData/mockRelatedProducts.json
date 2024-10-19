@@ -1,51 +1,51 @@
 [
   {
-    "image": "/assets/tv-1.png",
+    "image": "../../public/assets/related/related1.png",
     "imageAlt": "Sony BRAVIA XR Full Array LED TV",
     "label": {
       "text": "NEW",
       "type": "new"
     },
-    "title": "Sony BRAVIA XR X90K Series 75 inch TV: 4K Ultra HD LED Smart Google TV",
+    "title": "Sony BRAVIA XR Android TV",
     "price": {
       "current": 1498.00,
       "original": 1598.00
     }
   },
   {
-    "image": "/assets/tv-2.png",
+    "image": "../../public/assets/related/related2.png",
     "imageAlt": "TV displaying mountain landscape",
     "label": {
       "text": "-10%",
       "type": "discount"
     },
-    "title": "SAMSUNG 65-Inch Class QLED 4K UHD Q70A Series Dual LED Quantum HDR",
+    "title": "Mi P1 LED Quantum HDR",
     "price": {
       "current": 897.99,
       "original": 997.99
     }
   },
   {
-    "image": "/assets/tv-3.png",
+    "image": "../../public/assets/related/related3.png",
     "imageAlt": "TV showing canyon landscape",
     "label": {
       "text": "HOT",
       "type": "hot"
     },
-    "title": "LG C1 Series 6'' Alexa Built-in 4k Smart OLED TV",
+    "title": "Konka 4k Smart OLED TV",
     "price": {
       "current": 1796.99,
       "original": 1796.99
     }
   },
   {
-    "image": "/assets/tv-4.png",
+    "image": "../../public/assets/related/related4.png",
     "imageAlt": "TCL Roku TV interface",
     "label": {
       "text": "2 Years Warranty",
       "type": "warranty"
     },
-    "title": "TCL 55-inch Class 4-Series 4K UHD HDR Smart Roku TV",
+    "title": "TCL 55 Smart Roku TV",
     "price": {
       "current": 319.99,
       "original": 319.99

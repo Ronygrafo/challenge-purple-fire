@@ -1,6 +1,7 @@
 import ProductCard from './components/ProductCards/ProductCard'
 import useRelatedProductData from "../../hooks/useRelatedProductData";
 import './RelatedProducts.css'
+import SliderButtons from './components/SliderButtons/SliderButtons';
 
 const RelatedProducts = () => {
     const { productData, loading, error } = useRelatedProductData();
@@ -10,6 +11,7 @@ const RelatedProducts = () => {
     if (!productData || productData.length === 0) return <div>No product data available</div>;
 
     return (
+        <section>
         <div className="related-products">
             {productData.map((product, index) => (
                 <ProductCard
@@ -21,7 +23,10 @@ const RelatedProducts = () => {
                     price={product.price}
                 />
             ))}
+            
         </div>
+        <SliderButtons/>
+        </section>
     );
 }
 

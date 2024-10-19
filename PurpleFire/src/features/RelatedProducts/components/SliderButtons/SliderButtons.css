@@ -1,0 +1,7 @@
+.slider-control{
+    display: flex;
+    justify-content: center;
+}
+.slider-control span{
+    cursor: pointer;
+};
