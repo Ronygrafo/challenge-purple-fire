@@ -171,3 +171,15 @@
     border: 1px solid #ddd;
     margin: 0 10px;
 }
+
+.fetching-message{
+    margin: 0 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-light);
+    height: 350px;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 200;
+}

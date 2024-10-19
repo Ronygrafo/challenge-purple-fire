@@ -25,7 +25,7 @@ const MainProduct = () => {
     setSelectedThumbnail(index);
   };
 
-  if (loading) return <div>Loading Product...</div>;
+  if (loading) return <div className="fetching-message">Loading Product...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!productData) return <div>No product data available</div>;
 
