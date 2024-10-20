@@ -28,7 +28,15 @@
   border: solid 1px var(--primary-red-dark);
 }
 
-.subscribe-success{
+.subscribe-success {
   color: #FFF;
   background-color: #000;
+}
+
+@media only screen and (max-width:768px) {
+  .button {
+    width: 100px;
+    height: 46px;
+    font-size: 14px;
+  }
 }

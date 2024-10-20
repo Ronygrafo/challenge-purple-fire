@@ -4,6 +4,17 @@ const Header = () => {
   return (
     <header className="main-header">
       <div className="header-content">
+
+        <div className='mobile-menu'>
+        <MaterialSymbol
+            icon={"menu"}
+            size={24}
+            grade={0}
+            weight={300}
+            color={"#fff"}
+          />
+        </div>
+
         <div className="logo">Needus<span className="logo-dot">.</span></div>
         
         <div className="search-bar">

@@ -27,3 +27,15 @@
 .icon-button.icon-right {
   flex-direction: row-reverse;
 }
+
+@media only screen and (max-width:768px) {
+  .icon-button {
+    width: 100px;
+    height: 46px;
+    font-size: 13px;
+    gap: 4px;
+  }
+  .icon-button .material-symbols {
+    font-size: 15px !important;
+  }
+}

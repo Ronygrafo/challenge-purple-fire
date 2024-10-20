@@ -10,6 +10,10 @@
     margin: 0 auto;
     padding: 0;
   }
+
+  .mobile-menu{
+    display: none;
+  }
   
   .logo {
     font-size: 24px;
@@ -77,4 +81,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  @media only screen and (max-width:768px) {
+    .mobile-menu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      left: 22px;
+      background-color: var(--primary-red);
+      cursor: pointer;
+    }
+
+    .main-header{
+      height: 72px;
+      padding: 1.1rem 0;
+    }
+
+    .header-content{
+      justify-content: center;
+    }
+    .search-bar, .categories-dropdown, .user-nav{
+      display: none;
+    }
+
+    .icons{
+      position: absolute;
+      right: 10px;
+    }
   }

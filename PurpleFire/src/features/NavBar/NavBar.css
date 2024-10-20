@@ -1,76 +1,83 @@
 .main-navbar {
-    height: 72px;
-    background-color: var(--dark-blue);
-    color: #fff;
+  height: 72px;
+  background-color: var(--dark-blue);
+  color: #fff;
+}
+
+.navbar-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 6rem;
+}
+
+.categories-button {
+  height: 100%;
+  background-color: var(--primary-red);
+  color: #fff;
+  border: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.menu-icon,
+.dropdown-icon {
+  margin: 0 5px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  color: var(--primary-red);
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text span {
+  font-size: 12px;
+}
+
+.contact-text strong {
+  font-size: 14px;
+}
+
+@media only screen and (max-width:768px) {
+  .main-navbar {
+    display: none;
   }
-  
-  .navbar-content {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 6rem;
-  }
-  
-  .categories-button {
-    height: 100%;
-    background-color: var(--primary-red);
-    color: #fff;
-    border: none;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding-left: 6rem;
-    padding-right: 1rem;
-  }
-  
-  .menu-icon, .dropdown-icon {
-    margin: 0 5px;
-  }
-  
-  .nav-links {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .nav-links a.active {
-    color: var(--primary-red);
-  }
-  
-  .contact-info {
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-icon {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  
-  .contact-text {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-text span {
-    font-size: 12px;
-  }
-  
-  .contact-text strong {
-    font-size: 14px;
-  }
+}

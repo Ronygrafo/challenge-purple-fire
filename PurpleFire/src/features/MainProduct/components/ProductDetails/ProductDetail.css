@@ -17,3 +17,9 @@
     font-weight: 400;
     color: var(--text-grey-dark);
 }
+
+@media only screen and (max-width:768px) {
+    .product-tabs {
+        height: 260px;
+    }
+  }

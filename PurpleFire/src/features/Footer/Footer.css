@@ -95,3 +95,19 @@
     color: var(--primary-red);
     text-decoration: underline;
   }
+
+  @media only screen and (max-width:768px) {
+    .footer-section > :not(h3) {
+      display: none;
+    }
+    .footer-section h3 {
+      margin: 4px 0;
+      padding-left: 4px;
+      font-size: 0.8rem;
+      text-decoration: underline;
+
+    }
+    .footer-section {
+      margin-bottom: 0;
+  }
+  }
