@@ -78,8 +78,7 @@
 
 @media only screen and (max-width:768px) {
   .product-card {
-    min-width: 130px;
-    max-width: 170px;
+    min-width: 140px;
   }
 
   .product-card__content {
@@ -91,13 +90,13 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    padding-left: 8px;
+    padding: 0 8px;
     gap: 2px;
   }
 
   .product-card__title {
     line-height: normal;
-    padding-left: 8px;
+    padding: 0 8px;
     margin-bottom: 4px;
     max-height: 2.8em;
   }
