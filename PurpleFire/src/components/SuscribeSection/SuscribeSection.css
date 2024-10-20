@@ -6,7 +6,7 @@
     background-color: var(--grey-filter);
     background-image: 
         linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)),
-        url('../../../../../public/assets/background.png');
+        url('../../../../../assets/background.png');
     background-size: cover;
     background-position: center;
 }

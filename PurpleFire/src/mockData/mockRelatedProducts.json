@@ -1,6 +1,6 @@
 [
   {
-    "image": "../../public/assets/related/related1.png",
+    "image": "../../assets/related/related1.png",
     "imageAlt": "Sony BRAVIA XR Full Array LED TV",
     "label": {
       "text": "NEW",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "image": "../../public/assets/related/related2.png",
+    "image": "../../assets/related/related2.png",
     "imageAlt": "TV displaying mountain landscape",
     "label": {
       "text": "-10%",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "image": "../../public/assets/related/related3.png",
+    "image": "../../assets/related/related3.png",
     "imageAlt": "TV showing canyon landscape",
     "label": {
       "text": "HOT",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "image": "../../public/assets/related/related4.png",
+    "image": "../../assets/related/related4.png",
     "imageAlt": "TCL Roku TV interface",
     "label": {
       "text": "2 Years Warranty",
