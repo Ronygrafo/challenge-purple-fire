@@ -9,5 +9,6 @@
     .related-products {
         justify-content: flex-start;
         overflow-x: hidden;
+        gap: 8px;
     }
   }
