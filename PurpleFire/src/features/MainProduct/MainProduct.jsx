@@ -1,4 +1,3 @@
-import { useState } from "react";
 import useProductData from "../../hooks/useProductData";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import ProducDetails from "../../features/MainProduct/components/ProductDetails/ProductDetails";
@@ -17,13 +16,13 @@ const handleSubmit = (e) => {
 
 const MainProduct = () => {
   const { productData, loading, error } = useProductData();
-  const [selectedThumbnail, setSelectedThumbnail] = useState(0);
 
-  const handleThumbnailClick = (index) => {
-    setSelectedThumbnail(index);
+  const handleQuantityClick = () => {
+    console.log("Quantity");
   };
 
-  if (loading) return <div className="fetching-message">Loading Product...</div>;
+  if (loading)
+    return <div className="fetching-message">Loading Product...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!productData) return <div>No product data available</div>;
 
@@ -32,7 +31,7 @@ const MainProduct = () => {
   return (
     <section>
       <div className="product-main full-width">
-      <ProductMedia images={productData.product.images}/>
+        <ProductMedia images={productData.product.images} />
         <div className="product-data">
           <table>
             <tbody>
@@ -88,9 +87,13 @@ const MainProduct = () => {
               </div>
 
               <div className="quantity-selector">
-                <button type="button">-</button>
+                <button type="button" onClick={handleQuantityClick}>
+                  -
+                </button>
                 <input type="number" readOnly />
-                <button type="button">+</button>
+                <button type="button" onClick={handleQuantityClick}>
+                  +
+                </button>
               </div>
             </div>
 

@@ -112,6 +112,7 @@
     width: 40px;
     height: 40px;
     font-size: 20px;
+    color: var(--dark-text);
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     cursor: pointer;
