@@ -1,4 +1,4 @@
-/* eslint react/prop-types: 0 */
+ 
 
 import ChipTag from "../../../../components/ChipTag/ChipTag";
 import IconButton from "../../../../components/IconButton/IconButton";

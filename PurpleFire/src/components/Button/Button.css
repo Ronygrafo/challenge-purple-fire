@@ -28,6 +28,11 @@
   border: solid 1px var(--primary-red-dark);
 }
 
+.button--not-selected {
+  color: #ccc;
+  border-color: var(--grey-light);
+}
+
 .subscribe-success {
   color: #FFF;
   background-color: #000;

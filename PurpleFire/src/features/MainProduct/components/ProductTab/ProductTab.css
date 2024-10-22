@@ -7,6 +7,7 @@
     border-bottom: 1px solid transparent;
     cursor: pointer;
     transition: border-color 0.3s ease;
+    color: var(--text-grey-dark);
   }
   
   .tab:hover {
