@@ -21,8 +21,9 @@
 @media only screen and (max-width:768px) {
   .subscribe-input {
     width: 100%;
-}
-.subscribe-input__field {
-  font-size: 16px;
-}
+  }
+
+  .subscribe-input__field {
+    font-size: 16px;
+  }
 }

@@ -50,13 +50,16 @@
         height: 72px;
         margin-bottom: 0;
     }
+
     .category-banner-content {
         gap: 4px;
     }
+
     .category-title {
         font-size: 1.3rem;
     }
+
     .breadcrumbs {
         font-size: 13px;
     }
-  }
+}

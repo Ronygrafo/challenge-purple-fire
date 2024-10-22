@@ -10,18 +10,16 @@ const SuscribeSection = () => {
 
   return (
     <section className="newsletter-signup full-width">
-        
       <div className="newsletter-text">
         <h2>Join our newsletter and get offers</h2>
         <p>Sign up our newsletter</p>
       </div>
 
-        <SuscribeInput
-          onSubscribe={handleSubscribe}
-          placeholder="Enter your email"
-          buttonText="Subscribe"
-
-        />
+      <SuscribeInput
+        onSubscribe={handleSubscribe}
+        placeholder="Enter your email"
+        buttonText="Subscribe"
+      />
     </section>
   );
 };

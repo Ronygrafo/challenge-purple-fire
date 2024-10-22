@@ -1,5 +1,3 @@
- 
-
 import "./AnnounceBar.css";
 
 const AnnounceBar = () => {

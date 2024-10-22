@@ -1,28 +1,28 @@
 .chip-tag {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 16px;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  .chip-tag--new {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .chip-tag--discount {
-    background-color: var(--primary-red);
-    color: white;
-  }
-  
-  .chip-tag--hot {
-    background-color: #FF9800;
-    color: white;
-  }
-  
-  .chip-tag--warranty {
-    background-color: #3F51B5;
-    color: white;
-  }
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.chip-tag--new {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.chip-tag--discount {
+  background-color: var(--primary-red);
+  color: white;
+}
+
+.chip-tag--hot {
+  background-color: #FF9800;
+  color: white;
+}
+
+.chip-tag--warranty {
+  background-color: #3F51B5;
+  color: white;
+}

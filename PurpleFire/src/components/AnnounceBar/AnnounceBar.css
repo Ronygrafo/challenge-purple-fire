@@ -1,4 +1,4 @@
-.announce-bar{
+.announce-bar {
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -7,17 +7,19 @@
     background-color: var(--dark-blue)
 }
 
-.announce-bar h4, .language-currency p{
+.announce-bar h4,
+.language-currency p {
     font-weight: 400;
 }
-.language-currency p{
+
+.language-currency p {
     width: 100%;
     text-align: center;
     cursor: pointer;
 }
 
 @media only screen and (max-width:768px) {
-    .announce-bar{
+    .announce-bar {
         display: none;
     }
 }

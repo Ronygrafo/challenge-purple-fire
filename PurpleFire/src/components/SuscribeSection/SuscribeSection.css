@@ -1,42 +1,45 @@
 .newsletter-signup {
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--grey-filter);
-    background-image: 
-        linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)),
-        url('../../../../../assets/background.png');
-    background-size: cover;
-    background-position: center;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--grey-filter);
+  background-image:
+    linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)),
+    url('../../../../../assets/background.png');
+  background-size: cover;
+  background-position: center;
 }
 
-.newsletter-text h2, .newsletter-text p{
-    margin: 0 0 0 4px;
-    color: #fff;
-    font-weight: 500;
+.newsletter-text h2,
+.newsletter-text p {
+  margin: 0 0 0 4px;
+  color: #fff;
+  font-weight: 500;
 }
-.newsletter-text h2{
-    font-size: 1.8rem;
+
+.newsletter-text h2 {
+  font-size: 1.8rem;
 }
-.newsletter-text p{
-    font-size: 1.2rem;
+
+.newsletter-text p {
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width:768px) {
-    .newsletter-signup {
-      height: 180px;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-around;
-      background-position: right;
-    }
-  
-    .newsletter-text p {
-      font-size: 0.9rem;
-    }
-  
-    .newsletter-text h2 {
-      font-size: 1.3rem;
-    }
+  .newsletter-signup {
+    height: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-position: right;
   }
+
+  .newsletter-text p {
+    font-size: 0.9rem;
+  }
+
+  .newsletter-text h2 {
+    font-size: 1.3rem;
+  }
+}
