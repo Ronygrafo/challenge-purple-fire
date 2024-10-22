@@ -1,4 +1,4 @@
-import './SliderButtons.css'
+import "./SliderButtons.css";
 import { MaterialSymbol } from "react-material-symbols";
 
 const SliderButtons = () => {

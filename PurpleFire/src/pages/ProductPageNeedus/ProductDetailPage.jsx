@@ -18,7 +18,7 @@ const ProductDetailPage = () => {
         breadcrumbs={["home", "product", "tv collection"]}
       />
       <MainProduct />
-      <RelatedProducts/>
+      <RelatedProducts />
       <SuscribeSection />
       <Footer />
     </>

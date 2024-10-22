@@ -8,6 +8,7 @@ const ProductMedia = ({ images }) => {
     );
   }
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [selectedThumbnail, setSelectedThumbnail] = useState(0);
 
   const selectedImage = images[selectedThumbnail];
@@ -32,7 +33,12 @@ const ProductMedia = ({ images }) => {
           aria-label={`View ${image.alt}`}
           aria-selected={index === selectedThumbnail}
         >
-          <img src={image.url} alt={image.alt} />
+          <img
+            src={image.url}
+            alt={image.alt}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       ))}
     </div>

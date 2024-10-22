@@ -1,4 +1,3 @@
-import "./ProductRating.css";
 import { MaterialSymbol } from "react-material-symbols";
 
 const ProductRating = () => {

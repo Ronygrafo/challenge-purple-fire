@@ -1,5 +1,5 @@
-import { MaterialSymbol } from 'react-material-symbols'
-import './NavBar.css'
+import { MaterialSymbol } from "react-material-symbols";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -44,7 +44,13 @@ const NavBar = () => {
         </ul>
 
         <div className="contact-info">
-          <MaterialSymbol icon={"headphones"} size={48} grade={0} weight={400} color={"#E73C17"} />
+          <MaterialSymbol
+            icon={"headphones"}
+            size={48}
+            grade={0}
+            weight={400}
+            color={"var(--primary-red)"}
+          />
           <div className="contact-text">
             <span>CONTACT US 24/7</span>
             <strong>+12012987481</strong>
@@ -53,6 +59,6 @@ const NavBar = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default NavBar
+export default NavBar;
