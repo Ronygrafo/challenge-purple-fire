@@ -1,7 +1,7 @@
  
 
 import { useState } from "react";
-import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import Button from "../Button/Button";
 import "./SuscribeInput.css";
 
 const SuscribeInput = ({
@@ -37,7 +37,7 @@ const SuscribeInput = ({
         required
         disabled={isSubscribed}
       />
-      <PrimaryButton
+      <Button
         text={isSubscribed ? "Subscribed!" : buttonText}
         className={`${isSubscribed ? "subscribe-success" : "primary-button"}`}
         disabled={isSubscribed}

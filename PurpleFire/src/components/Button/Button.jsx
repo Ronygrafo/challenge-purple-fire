@@ -1,8 +1,8 @@
  
 
-import "./PrimaryButton.css";
+import "./Button.css";
 
-const PrimaryButton = ({ text, onClick, className = "" }) => {
+const Button = ({ text, onClick, className = "" }) => {
   return (
     <button
       className={`button ${className}`}
@@ -14,4 +14,4 @@ const PrimaryButton = ({ text, onClick, className = "" }) => {
   );
 };
 
-export default PrimaryButton;
+export default Button;
