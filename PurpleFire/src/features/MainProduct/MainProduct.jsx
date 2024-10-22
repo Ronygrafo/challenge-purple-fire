@@ -33,28 +33,6 @@ const MainProduct = () => {
     <section>
       <div className="product-main full-width">
       <ProductMedia images={productData.product.images}/>
-{/*         <div className="product-media">
-          <div className="thumbnails-bar">
-            {productData.product.images.map((image, index) => (
-              <div
-                key={image.id}
-                className={`thumbnail ${
-                  index === selectedThumbnail ? "selected" : ""
-                }`}
-                onClick={() => handleThumbnailClick(index)}
-              >
-                <img src={image.url} alt={image.alt} />
-              </div>
-            ))}
-          </div>
-          <div className="featured-image">
-            <img
-              src={productData.product.images[0].url}
-              alt={productData.product.images[0].alt}
-            />
-          </div>
-        </div> */}
-
         <div className="product-data">
           <table>
             <tbody>
