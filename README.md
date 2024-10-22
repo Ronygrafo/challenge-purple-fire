@@ -1,6 +1,7 @@
 # Needus - Product Detail Page
+![Product-Detail-Page-Banner](https://github.com/user-attachments/assets/67db2e4e-bcf8-439e-848d-6dfb61bd0739)
 
-<!-- Paste screenshots -->
+
 
 ## 📋 Table of Contents
 
@@ -48,7 +49,8 @@ This project implements a product detail page within an e-commerce platform. It 
 ## 🏗️ Architecture
 The project follows a sensible folder structure:
 
-<!-- Paste screenshots -->
+![pdp-tree](https://github.com/user-attachments/assets/726ecb8b-20e7-497f-ac3a-c2cf97438629)
+
 
 ## Project Structure Explanation:
 ### Directory Organization
