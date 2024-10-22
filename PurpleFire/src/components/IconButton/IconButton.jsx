@@ -1,5 +1,3 @@
-/* eslint react/prop-types: 0 */
-
 import { MaterialSymbol } from "react-material-symbols";
 import "./IconButton.css";
 

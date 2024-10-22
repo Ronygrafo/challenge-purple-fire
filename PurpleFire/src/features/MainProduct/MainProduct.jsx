@@ -4,6 +4,7 @@ import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import ProducDetails from "../../features/MainProduct/components/ProductDetails/ProductDetails";
 import PoductRating from "../../features/MainProduct/components/ProductRating/ProductRating";
 import "./MainProduct.css";
+import ProductMedia from "./components/ProductMedia/ProductMedia";
 
 const handleClick = () => {
   console.log("Click Size");
@@ -31,7 +32,8 @@ const MainProduct = () => {
   return (
     <section>
       <div className="product-main full-width">
-        <div className="product-media">
+      <ProductMedia images={productData.product.images}/>
+{/*         <div className="product-media">
           <div className="thumbnails-bar">
             {productData.product.images.map((image, index) => (
               <div
@@ -51,7 +53,7 @@ const MainProduct = () => {
               alt={productData.product.images[0].alt}
             />
           </div>
-        </div>
+        </div> */}
 
         <div className="product-data">
           <table>
