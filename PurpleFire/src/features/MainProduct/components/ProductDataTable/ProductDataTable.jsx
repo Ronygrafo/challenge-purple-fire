@@ -1,8 +1,11 @@
+import { useState } from "react";
 import Button from "../../../../components/Button/Button";
 import ProductRating from "../ProductRating/ProductRating";
 import "./ProductDataTable.css";
 
 const ProductDataTable = ({ productData }) => {
+  const [selectedSizeIndex, setSelectedSizeIndex] = useState(0);
+
   const handleClick = () => {
     console.log("Click Size");
   };
@@ -14,6 +17,11 @@ const ProductDataTable = ({ productData }) => {
 
   const handleQuantityClick = () => {
     console.log("Quantity");
+  };
+
+  const handleSizeSelect = (index) => {
+    setSelectedSizeIndex(index);
+    handleClick();
   };
 
   return (
@@ -50,8 +58,10 @@ const ProductDataTable = ({ productData }) => {
           <Button
             key={index}
             text={`${size.cm} cm (${size.inches}")`}
-            onClick={() => handleClick}
-            className={`secondary-button ${size.selected ? "selected" : ""}`}
+            onClick={() => handleSizeSelect(index)}
+            className={`secondary-button ${
+              index === selectedSizeIndex ? "" : "button--not-selected"
+            }`}
           />
         ))}
       </div>
